@@ -1,0 +1,7 @@
+[2025-03-23 21:12:44,247] 27 root - INFO - Data Ingestion Start
+[2025-03-23 21:12:44,329] 33 root - INFO - Data Read succesfully
+[2025-03-23 21:12:44,682] 37 root - INFO - Succesfully saved raw data
+[2025-03-23 21:12:44,682] 40 root - INFO - Performing train test split 
+[2025-03-23 21:12:44,890] 42 root - INFO - train test split complete
+[2025-03-23 21:12:45,515] 47 root - INFO - Succesfully save the Test and Train data
+[2025-03-23 21:12:45,516] 48 root - INFO - Data Ingestion Complete

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Restaurant_Rating_Prediction
+Version: 0.0.1
+Summary: A package for  predicting the  restaurant rating
+Author: Ajay Chaudhary
+Author-email: ajaych2822@gmail.com
+Requires-Python: >=3.6
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: numpy

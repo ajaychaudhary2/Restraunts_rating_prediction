@@ -1,0 +1,4 @@
+[2025-03-23 21:09:55,583] 27 root - INFO - Data Ingestion Start
+[2025-03-23 21:09:55,729] 33 root - INFO - Data Read succesfully
+[2025-03-23 21:09:55,729] 54 root - ERROR - Error come in the data ingestion
+[2025-03-23 21:09:55,729] 16 root - ERROR - Custom Exception: Error occurred in Python script name [e:\data_science _master\ml\prac_project\restraunts_rating_prediction\src\Restaurant_Rating_prediction\components\data_ingestion.py] line number [35] error message [dirname() got an unexpected keyword argument 'exist_ok']

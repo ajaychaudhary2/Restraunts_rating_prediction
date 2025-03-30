@@ -1,0 +1,28 @@
+[2025-03-29 17:40:50,555] 27 root - INFO - Data Ingestion Start
+[2025-03-29 17:40:50,674] 33 root - INFO - Data Read succesfully
+[2025-03-29 17:40:51,131] 37 root - INFO - Succesfully saved raw data
+[2025-03-29 17:40:51,132] 40 root - INFO - Performing train test split 
+[2025-03-29 17:40:51,154] 42 root - INFO - train test split complete
+[2025-03-29 17:40:51,376] 47 root - INFO - Succesfully save the Test and Train data
+[2025-03-29 17:40:51,376] 48 root - INFO - Data Ingestion Complete
+[2025-03-29 17:40:51,498] 23 root - INFO - Starting data transformation
+[2025-03-29 17:40:51,561] 39 root - INFO - Data transformation completed successfully
+[2025-03-29 17:40:51,573] 56 root - INFO - Sample of Transformed Train Data:
+   online_order  book_table  location  rest_type  cuisines  listed_in(type)
+0             1           0  0.042966   0.225968  0.001123         0.497937
+1             1           1  0.004278   0.080532  0.014717         0.338451
+2             1           0  0.038961   0.039568  0.000546         0.497937
+3             1           0  0.048610   0.005917  0.001396         0.497937
+4             1           0  0.044059   0.043907  0.013017         0.497937
+[2025-03-29 17:40:51,577] 57 root - INFO - Sample of Transformed Test Data:
+   online_order  book_table  location  rest_type  cuisines  listed_in(type)
+0             0           0  0.095643   0.346310  0.046668         0.338451
+1             0           0  0.024244   0.005067  0.000637         0.338451
+2             0           0  0.011834   0.008162  0.006038         0.025974
+3             1           0  0.022181   0.080532  0.001032         0.037778
+4             0           0  0.095643   0.346310  0.003914         0.338451
+[2025-03-29 17:40:51,579] 65 root - INFO - Preprocessor object saved successfully
+[2025-03-29 17:40:51,579] 21 root - INFO - Loading preprocessor object
+[2025-03-29 17:40:51,604] 27 root - INFO - Extracting Features & Target
+[2025-03-29 17:40:51,608] 64 root - ERROR - Exception occurred during Model Training
+[2025-03-29 17:40:51,608] 24 root - ERROR - Custom Exception: Error occurred in Python script name [e:\data_science _master\ml\prac_project\restraunts_rating_prediction\src\Restaurant_Rating_prediction\components\model_trainer.py] line number [31] error message [(slice(None, None, None), 2)]

@@ -1,0 +1,27 @@
+[2025-03-29 17:42:18,595] 27 root - INFO - Data Ingestion Start
+[2025-03-29 17:42:18,686] 33 root - INFO - Data Read succesfully
+[2025-03-29 17:42:18,900] 37 root - INFO - Succesfully saved raw data
+[2025-03-29 17:42:18,900] 40 root - INFO - Performing train test split 
+[2025-03-29 17:42:18,909] 42 root - INFO - train test split complete
+[2025-03-29 17:42:19,118] 47 root - INFO - Succesfully save the Test and Train data
+[2025-03-29 17:42:19,118] 48 root - INFO - Data Ingestion Complete
+[2025-03-29 17:42:19,238] 23 root - INFO - Starting data transformation
+[2025-03-29 17:42:19,293] 39 root - INFO - Data transformation completed successfully
+[2025-03-29 17:42:19,299] 56 root - INFO - Sample of Transformed Train Data:
+   online_order  book_table  location  rest_type  cuisines  listed_in(type)
+0             1           0  0.048641   0.346765  0.000273         0.497208
+1             0           0  0.011713   0.224754  0.000303         0.341910
+2             0           0  0.037505   0.002852  0.003672         0.064662
+3             1           0  0.014990   0.080046  0.001942         0.341910
+4             0           0  0.012835   0.080046  0.015020         0.036412
+[2025-03-29 17:42:19,309] 57 root - INFO - Sample of Transformed Test Data:
+   online_order  book_table  location  rest_type  cuisines  listed_in(type)
+0             0           0  0.010772   0.224754  0.000425         0.019845
+1             0           0  0.018783   0.080046  0.015020         0.036412
+2             1           0  0.011713   0.346765  0.012714         0.497208
+3             1           1  0.012835   0.025610  0.001092         0.019845
+4             1           0  0.054102   0.080046  0.015020         0.497208
+[2025-03-29 17:42:19,311] 65 root - INFO - Preprocessor object saved successfully
+[2025-03-29 17:42:19,311] 22 root - INFO - Loading preprocessor object
+[2025-03-29 17:42:19,320] 66 root - ERROR - Exception occurred during Model Training
+[2025-03-29 17:42:19,320] 24 root - ERROR - Custom Exception: Error occurred in Python script name [e:\data_science _master\ml\prac_project\restraunts_rating_prediction\src\Restaurant_Rating_prediction\components\model_trainer.py] line number [33] error message [(slice(None, None, None), 2)]

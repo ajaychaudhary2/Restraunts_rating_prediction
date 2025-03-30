@@ -1,0 +1,9 @@
+[2025-03-29 13:13:18,619] 27 root - INFO - Data Ingestion Start
+[2025-03-29 13:13:18,708] 33 root - INFO - Data Read succesfully
+[2025-03-29 13:13:18,896] 37 root - INFO - Succesfully saved raw data
+[2025-03-29 13:13:18,896] 40 root - INFO - Performing train test split 
+[2025-03-29 13:13:18,906] 42 root - INFO - train test split complete
+[2025-03-29 13:13:19,090] 47 root - INFO - Succesfully save the Test and Train data
+[2025-03-29 13:13:19,091] 48 root - INFO - Data Ingestion Complete
+[2025-03-29 13:13:19,091] 24 root - INFO - Data transformation started
+[2025-03-29 13:13:19,091] 47 root - INFO - Preprocessing pipelines created.

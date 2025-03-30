@@ -1,0 +1,11 @@
+[2025-03-30 16:15:19,710] 27 root - INFO - Data Ingestion Start
+[2025-03-30 16:15:19,774] 33 root - INFO - Data Read succesfully
+[2025-03-30 16:15:19,965] 37 root - INFO - Succesfully saved raw data
+[2025-03-30 16:15:19,965] 40 root - INFO - Performing train test split 
+[2025-03-30 16:15:19,977] 42 root - INFO - train test split complete
+[2025-03-30 16:15:20,150] 47 root - INFO - Succesfully save the Test and Train data
+[2025-03-30 16:15:20,150] 48 root - INFO - Data Ingestion Complete
+[2025-03-30 16:15:20,152] 23 root - INFO - Starting data transformation
+[2025-03-30 16:15:20,152] 43 root - ERROR - Exception occurred during data transformation
+[2025-03-30 16:15:20,152] 72 root - ERROR - Error occurred during data transformation
+[2025-03-30 16:15:20,158] 26 root - ERROR - Custom Exception: Error occurred in Python script name [e:\data_science _master\ml\prac_project\restraunts_rating_prediction\src\Restaurant_Rating_prediction\components\data_transformation.py] line number [51] error message [Error occurred in Python script name [e:\data_science _master\ml\prac_project\restraunts_rating_prediction\src\Restaurant_Rating_prediction\components\data_transformation.py] line number [27] error message ['online_order']]

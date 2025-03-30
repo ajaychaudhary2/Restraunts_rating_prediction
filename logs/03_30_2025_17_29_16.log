@@ -1,0 +1,17 @@
+[2025-03-30 17:29:20,790] 24 root - INFO - Data Ingestion Start
+[2025-03-30 17:29:20,865] 30 root - INFO - Data Read successfully
+[2025-03-30 17:29:21,059] 35 root - INFO - Successfully saved raw data
+[2025-03-30 17:29:21,059] 38 root - INFO - Performing train-test split
+[2025-03-30 17:29:21,068] 40 root - INFO - Train-test split complete
+[2025-03-30 17:29:21,247] 46 root - INFO - Successfully saved train and test data
+[2025-03-30 17:29:21,247] 47 root - INFO - Data Ingestion Complete
+[2025-03-30 17:29:21,248] 21 root - INFO - Starting data transformation
+[2025-03-30 17:29:21,287] 45 root - INFO - Data transformation completed successfully
+[2025-03-30 17:29:21,292] 18 root - INFO - Successfully saved object of type <class 'dict'> at Artifacts\preprocessor.pkl
+[2025-03-30 17:29:21,292] 65 root - INFO - Preprocessor object saved successfully
+[2025-03-30 17:29:21,292] 21 root - INFO - Loading preprocessor object
+[2025-03-30 17:29:21,317] 53 root - INFO - Starting model training with RandomForestRegressor
+[2025-03-30 17:29:33,014] 70 root - INFO - Train R² Score: 0.9885, RMSE: 0.0460
+[2025-03-30 17:29:33,014] 71 root - INFO - Test R² Score: 0.9199, RMSE: 0.1210
+[2025-03-30 17:29:33,227] 18 root - INFO - Successfully saved object of type <class 'sklearn.ensemble._forest.RandomForestRegressor'> at Artifacts\model.pkl
+[2025-03-30 17:29:33,227] 78 root - INFO - Model saved successfully as model.pkl

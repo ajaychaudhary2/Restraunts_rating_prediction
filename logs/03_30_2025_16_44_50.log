@@ -1,0 +1,13 @@
+[2025-03-30 16:44:55,259] 24 root - INFO - Data Ingestion Start
+[2025-03-30 16:44:55,527] 30 root - INFO - Data Read successfully
+[2025-03-30 16:44:55,773] 35 root - INFO - Successfully saved raw data
+[2025-03-30 16:44:55,773] 38 root - INFO - Performing train-test split
+[2025-03-30 16:44:55,965] 40 root - INFO - Train-test split complete
+[2025-03-30 16:44:56,582] 46 root - INFO - Successfully saved train and test data
+[2025-03-30 16:44:56,583] 47 root - INFO - Data Ingestion Complete
+[2025-03-30 16:44:56,584] 23 root - INFO - Starting data transformation
+[2025-03-30 16:44:56,585] 26 root - INFO - Train Columns: ['online_order', 'book_table', 'votes', 'location', 'rest_type', 'cuisines', 'approx_costfor_two_people', 'listed_intype', 'rate']
+[2025-03-30 16:44:56,585] 27 root - INFO - Test Columns: ['online_order', 'book_table', 'votes', 'location', 'rest_type', 'cuisines', 'approx_costfor_two_people', 'listed_intype', 'rate']
+[2025-03-30 16:44:56,585] 51 root - ERROR - Missing Column Error: "Column 'listed_in(type)' is missing in the dataset."
+[2025-03-30 16:44:56,585] 76 root - ERROR - Error occurred during data transformation
+[2025-03-30 16:44:56,585] 26 root - ERROR - Custom Exception: Error occurred in Python script name [e:\data_science _master\ml\prac_project\restraunts_rating_prediction\src\Restaurant_Rating_prediction\components\data_transformation.py] line number [60] error message [Error occurred in Python script name [e:\data_science _master\ml\prac_project\restraunts_rating_prediction\src\Restaurant_Rating_prediction\components\data_transformation.py] line number [32] error message ["Column 'listed_in(type)' is missing in the dataset."]]

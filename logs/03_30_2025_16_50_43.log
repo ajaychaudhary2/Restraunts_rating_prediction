@@ -1,0 +1,18 @@
+[2025-03-30 16:50:48,501] 24 root - INFO - Data Ingestion Start
+[2025-03-30 16:50:48,656] 30 root - INFO - Data Read successfully
+[2025-03-30 16:50:48,883] 35 root - INFO - Successfully saved raw data
+[2025-03-30 16:50:48,884] 38 root - INFO - Performing train-test split
+[2025-03-30 16:50:48,893] 40 root - INFO - Train-test split complete
+[2025-03-30 16:50:49,127] 46 root - INFO - Successfully saved train and test data
+[2025-03-30 16:50:49,127] 47 root - INFO - Data Ingestion Complete
+[2025-03-30 16:50:49,128] 23 root - INFO - Starting data transformation
+[2025-03-30 16:50:49,129] 26 root - INFO - Train Columns: ['online_order', 'book_table', 'votes', 'location', 'rest_type', 'cuisines', 'approx_costfor_two_people', 'listed_intype', 'rate']
+[2025-03-30 16:50:49,131] 27 root - INFO - Test Columns: ['online_order', 'book_table', 'votes', 'location', 'rest_type', 'cuisines', 'approx_costfor_two_people', 'listed_intype', 'rate']
+[2025-03-30 16:50:49,175] 47 root - INFO - Data transformation completed successfully
+[2025-03-30 16:50:49,757] 65 root - INFO - Transformed train and test data saved successfully!
+[2025-03-30 16:50:49,759] 72 root - INFO - Preprocessor object saved successfully
+[2025-03-30 16:50:49,759] 21 root - INFO - Loading preprocessor object
+[2025-03-30 16:50:49,865] 53 root - INFO - Starting model training with RandomForestRegressor
+[2025-03-30 16:51:03,483] 70 root - INFO - Train R² Score: 0.9885, RMSE: 0.0460
+[2025-03-30 16:51:03,483] 71 root - INFO - Test R² Score: 0.9199, RMSE: 0.1210
+[2025-03-30 16:51:03,664] 78 root - INFO - Model saved successfully as model.pkl

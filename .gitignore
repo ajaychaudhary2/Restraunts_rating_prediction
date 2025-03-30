@@ -1,6 +1,3 @@
 env/
-research.ipynb
-notebooks/data/Zomato_cleaned.csv
-notebooks/data/zomato.csv
-Restraunts_rating_prediction/Artifacts/
-
+Artifacts/
+notebooks/

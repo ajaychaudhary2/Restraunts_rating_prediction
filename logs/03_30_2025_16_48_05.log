@@ -1,0 +1,13 @@
+[2025-03-30 16:48:09,879] 24 root - INFO - Data Ingestion Start
+[2025-03-30 16:48:10,041] 30 root - INFO - Data Read successfully
+[2025-03-30 16:48:10,490] 35 root - INFO - Successfully saved raw data
+[2025-03-30 16:48:10,491] 38 root - INFO - Performing train-test split
+[2025-03-30 16:48:10,509] 40 root - INFO - Train-test split complete
+[2025-03-30 16:48:10,924] 46 root - INFO - Successfully saved train and test data
+[2025-03-30 16:48:10,924] 47 root - INFO - Data Ingestion Complete
+[2025-03-30 16:48:10,926] 23 root - INFO - Starting data transformation
+[2025-03-30 16:48:10,926] 26 root - INFO - Train Columns: ['online_order', 'book_table', 'votes', 'location', 'rest_type', 'cuisines', 'approx_costfor_two_people', 'listed_intype', 'rate']
+[2025-03-30 16:48:10,926] 27 root - INFO - Test Columns: ['online_order', 'book_table', 'votes', 'location', 'rest_type', 'cuisines', 'approx_costfor_two_people', 'listed_intype', 'rate']
+[2025-03-30 16:48:10,974] 47 root - INFO - Data transformation completed successfully
+[2025-03-30 16:48:11,474] 65 root - INFO - Transformed train and test data saved successfully!
+[2025-03-30 16:48:11,476] 72 root - INFO - Preprocessor object saved successfully

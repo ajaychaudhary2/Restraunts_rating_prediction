@@ -1,0 +1,3 @@
+[2025-03-29 16:14:08,478] 27 root - INFO - Data Ingestion Start
+[2025-03-29 16:14:08,482] 54 root - ERROR - Error come in the data ingestion
+[2025-03-29 16:14:08,482] 21 root - ERROR - Custom Exception: Error occurred in Python script name [e:\data_science _master\ml\prac_project\restraunts_rating_prediction\src\Restaurant_Rating_prediction\components\data_ingestion.py] line number [32] error message [[Errno 2] No such file or directory: 'notebooks\\data\\Zomato_cleaned2.csv']

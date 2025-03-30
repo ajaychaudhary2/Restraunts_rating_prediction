@@ -1,0 +1,14 @@
+[2025-03-30 17:32:28,378] 24 root - INFO - Data Ingestion Start
+[2025-03-30 17:32:28,441] 30 root - INFO - Data Read successfully
+[2025-03-30 17:32:28,618] 35 root - INFO - Successfully saved raw data
+[2025-03-30 17:32:28,618] 38 root - INFO - Performing train-test split
+[2025-03-30 17:32:28,634] 40 root - INFO - Train-test split complete
+[2025-03-30 17:32:28,843] 46 root - INFO - Successfully saved train and test data
+[2025-03-30 17:32:28,843] 47 root - INFO - Data Ingestion Complete
+[2025-03-30 17:32:28,844] 22 root - INFO - Creating Data Transformation Pipeline
+[2025-03-30 17:32:28,846] 18 root - INFO - Successfully saved object of type <class 'dict'> at Artifacts\preprocessor.pkl
+[2025-03-30 17:32:28,846] 46 root - INFO - Preprocessor object saved successfully
+[2025-03-30 17:32:28,847] 21 root - INFO - Loading preprocessor object
+[2025-03-30 17:32:28,888] 53 root - INFO - Starting model training with RandomForestRegressor
+[2025-03-30 17:32:28,890] 81 root - ERROR - Exception occurred during Model Training
+[2025-03-30 17:32:28,890] 26 root - ERROR - Custom Exception: Error occurred in Python script name [e:\data_science _master\ml\prac_project\restraunts_rating_prediction\src\Restaurant_Rating_prediction\components\model_trainer.py] line number [57] error message [could not convert string to float: 'Yes']

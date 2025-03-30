@@ -1,0 +1,4 @@
+[2025-03-30 17:10:14,471] 56 root - INFO - Converting input data to DataFrame
+[2025-03-30 17:10:14,472] 16 root - INFO - Loading preprocessor and model...
+[2025-03-30 17:10:15,725] 19 root - INFO - Preprocessor and model loaded successfully!
+[2025-03-30 17:10:15,726] 40 root - ERROR - Error during prediction

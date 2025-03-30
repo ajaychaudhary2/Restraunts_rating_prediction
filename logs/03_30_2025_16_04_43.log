@@ -1,0 +1,12 @@
+[2025-03-30 16:04:48,157] 27 root - INFO - Data Ingestion Start
+[2025-03-30 16:04:48,381] 33 root - INFO - Data Read succesfully
+[2025-03-30 16:04:48,732] 37 root - INFO - Succesfully saved raw data
+[2025-03-30 16:04:48,732] 40 root - INFO - Performing train test split 
+[2025-03-30 16:04:48,741] 42 root - INFO - train test split complete
+[2025-03-30 16:04:49,136] 47 root - INFO - Succesfully save the Test and Train data
+[2025-03-30 16:04:49,136] 48 root - INFO - Data Ingestion Complete
+[2025-03-30 16:04:49,138] 54 root - INFO - Starting Data Transformation
+[2025-03-30 16:04:49,138] 26 root - INFO - Creating Preprocessing Pipeline
+[2025-03-30 16:04:49,138] 44 root - INFO - Preprocessing pipeline created successfully
+[2025-03-30 16:04:49,139] 78 root - ERROR - Error occurred during data transformation
+[2025-03-30 16:04:49,140] 26 root - ERROR - Custom Exception: Error occurred in Python script name [e:\data_science _master\ml\prac_project\restraunts_rating_prediction\src\Restaurant_Rating_prediction\components\data_transformation.py] line number [61] error message ['online_order']

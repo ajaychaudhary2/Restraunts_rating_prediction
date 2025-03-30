@@ -1,0 +1,14 @@
+[2025-03-30 17:25:17,018] 66 root - INFO - Converting input data to DataFrame
+[2025-03-30 17:25:17,020] 15 root - INFO - Loading preprocessor and model...
+[2025-03-30 17:25:18,960] 31 root - INFO - Loaded object of type <class 'dict'> from Artifacts\preprocessor.pkl
+[2025-03-30 17:25:19,454] 31 root - INFO - Loaded object of type <class 'sklearn.ensemble._forest.RandomForestRegressor'> from Artifacts\model.pkl
+[2025-03-30 17:25:19,455] 19 root - INFO - Preprocessor and model loaded successfully!
+[2025-03-30 17:25:19,466] 26 root - INFO - Raw Input Data:   online_order book_table  votes  ...                                     cuisines approx_costfor_two_people listed_intype
+0          Yes        Yes    864  ...  Seafood, Mangalorean, North Indian, Chinese                    1400.0      Delivery
+
+[1 rows x 8 columns]
+[2025-03-30 17:25:19,479] 39 root - INFO - Transformed Input Data:   online_order book_table  votes  ...                                     cuisines approx_costfor_two_people listed_intype
+0          Yes        Yes    864  ...  Seafood, Mangalorean, North Indian, Chinese                    1400.0      Delivery
+
+[1 rows x 8 columns]
+[2025-03-30 17:25:19,642] 48 root - ERROR - Error during prediction

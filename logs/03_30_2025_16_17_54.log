@@ -1,0 +1,13 @@
+[2025-03-30 16:17:59,255] 27 root - INFO - Data Ingestion Start
+[2025-03-30 16:17:59,356] 33 root - INFO - Data Read succesfully
+[2025-03-30 16:17:59,641] 37 root - INFO - Succesfully saved raw data
+[2025-03-30 16:17:59,641] 40 root - INFO - Performing train test split 
+[2025-03-30 16:17:59,649] 42 root - INFO - train test split complete
+[2025-03-30 16:17:59,896] 47 root - INFO - Succesfully save the Test and Train data
+[2025-03-30 16:17:59,896] 48 root - INFO - Data Ingestion Complete
+[2025-03-30 16:17:59,898] 23 root - INFO - Starting data transformation
+[2025-03-30 16:17:59,899] 26 root - INFO - Train Columns: ['book_table', 'votes', 'location', 'rest_type', 'cuisines', 'approx_costfor_two_people', 'listed_intype', 'rate']
+[2025-03-30 16:17:59,906] 27 root - INFO - Test Columns: ['book_table', 'votes', 'location', 'rest_type', 'cuisines', 'approx_costfor_two_people', 'listed_intype', 'rate']
+[2025-03-30 16:17:59,906] 51 root - ERROR - Missing Column Error: "Column 'online_order' is missing in the dataset."
+[2025-03-30 16:17:59,906] 76 root - ERROR - Error occurred during data transformation
+[2025-03-30 16:17:59,906] 26 root - ERROR - Custom Exception: Error occurred in Python script name [e:\data_science _master\ml\prac_project\restraunts_rating_prediction\src\Restaurant_Rating_prediction\components\data_transformation.py] line number [60] error message [Error occurred in Python script name [e:\data_science _master\ml\prac_project\restraunts_rating_prediction\src\Restaurant_Rating_prediction\components\data_transformation.py] line number [32] error message ["Column 'online_order' is missing in the dataset."]]

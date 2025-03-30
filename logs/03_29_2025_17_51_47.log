@@ -1,0 +1,24 @@
+[2025-03-29 17:51:51,570] 27 root - INFO - Data Ingestion Start
+[2025-03-29 17:51:51,885] 33 root - INFO - Data Read succesfully
+[2025-03-29 17:51:52,169] 37 root - INFO - Succesfully saved raw data
+[2025-03-29 17:51:52,169] 40 root - INFO - Performing train test split 
+[2025-03-29 17:51:52,178] 42 root - INFO - train test split complete
+[2025-03-29 17:51:52,361] 47 root - INFO - Succesfully save the Test and Train data
+[2025-03-29 17:51:52,361] 48 root - INFO - Data Ingestion Complete
+[2025-03-29 17:51:52,483] 23 root - INFO - Starting data transformation
+[2025-03-29 17:51:52,534] 39 root - INFO - Data transformation completed successfully
+[2025-03-29 17:51:52,543] 56 root - INFO - Sample of Transformed Train Data:
+   online_order  book_table  location  rest_type  cuisines  listed_in(type)
+0             0           0  0.000546   0.347190  0.029949         0.342032
+1             0           0  0.014474   0.007495  0.000546         0.019481
+2             1           0  0.012441   0.079014  0.000303         0.497876
+3             1           0  0.029828   0.347190  0.047336         0.497876
+4             1           0  0.054193   0.347190  0.001396         0.342032
+[2025-03-29 17:51:52,555] 57 root - INFO - Sample of Transformed Test Data:
+   online_order  book_table  location  rest_type  cuisines  listed_in(type)
+0             0           0  0.025489   0.347190  0.000212         0.342032
+1             1           1  0.054193   0.025883  0.000425         0.019481
+2             0           0  0.038506   0.001608  0.000394         0.035745
+3             0           0  0.038506   0.347190  0.003338         0.342032
+4             1           0  0.018327   0.044635  0.003520         0.064965
+[2025-03-29 17:51:52,557] 65 root - INFO - Preprocessor object saved successfully

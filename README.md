@@ -1,12 +1,11 @@
 # Restaurant Rating Prediction API
 
-This API predicts restaurant ratings based on various features such as online order availability, table booking options, location, restaurant type, cuisines, approximate cost for two people, and more.
+This API predicts restaurant ratings based on various input features using a trained machine learning model. It also supports bulk predictions from a CSV file.
 
-## Project Structure
-The project contains the following components:
-- **Data Transformation**: Preprocesses the data and saves the preprocessor object as a pickle file.
-- **Prediction Pipeline**: Uses the trained model to make predictions based on the provided input data.
-- **API Endpoint**: Flask-based API to receive CSV files and return predictions.
+## Features
+- Predicts restaurant ratings using individual inputs or a CSV file.
+- Uses a pre-trained Random Forest Regressor model.
+- Preprocessing is handled using a saved preprocessor object.
 
 ## Installation
 1. Clone the repository:
@@ -14,53 +13,64 @@ The project contains the following components:
    git clone https://github.com/ajaychaudhary2/RestaurantRatingPrediction.git
    cd RestaurantRatingPrediction
    ```
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv env
-   source env/bin/activate  # On Windows: env\Scripts\activate
-   ```
-3. Install the required packages:
+
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-## How to Run the API
-1. Start the Flask API:
+3. Run the API:
    ```bash
    python app.py
    ```
-2. The API will be running at:
-   ```
-   http://127.0.0.1:5000/predict
-   ```
 
-## Using Postman for Prediction
+## API Endpoints
+
+### 1. Predict Single Rating
+**URL:** `/predict`
+**Method:** `POST`
+**Content-Type:** `application/json`
+
+#### Request Body Example:
+```json
+{
+  "online_order": 1,
+  "book_table": 0,
+  "votes": 150,
+  "location": "Indiranagar",
+  "rest_type": "Casual Dining",
+  "cuisines": "North Indian",
+  "approx_costfor_two_people": 800,
+  "listed_intype": "Buffet"
+}
+```
+
+#### Response Example:
+```json
+{
+  "predicted_rating": 4.2
+}
+```
+
+### 2. Bulk Predict from CSV
+**URL:** `/bulk_predict`
+**Method:** `POST`
+**Content-Type:** `multipart/form-data`
+
+#### Request Example:
+Using Postman, set the key as `file` and value as the CSV file.
+
+#### Response Example:
+A CSV file containing the predicted ratings will be returned for download.
+
+## Usage with Postman
 1. Open Postman and create a new request.
-2. Set the method to **POST** and enter the URL:
-   ```
-   http://127.0.0.1:5000/predict
-   ```
-3. Go to the **Body** tab and select **form-data**.
-4. Use the following key-value pair:
-   - **Key**: `file` (select **File** type)
-   - **Value**: Select the CSV file containing the input data.
-5. Click **Send**.
+2. Select `POST` and enter the appropriate URL (e.g., `http://127.0.0.1:5000/predict`).
+3. For single predictions, use `raw` and `JSON` for the body.
+4. For bulk predictions, use `form-data` and upload the CSV file.
+5. Click `Send` to get the prediction.
 
-### Example CSV Format
-The input CSV file should have columns as follows:
-```
-online_order,book_table,votes,location,rest_type,cuisines,approx_costfor_two_people,listed_intype
-Yes,No,500,Indiranagar,Quick Bites,Chinese,500,Dine-out
-No,Yes,250,MG Road,Casual Dining,North Indian,1000,Delivery
-```
-
-### Response
-The response will be a CSV file containing the predicted ratings, saved in the same directory with the filename `predictions.csv`.
-
-## Troubleshooting
-- If you encounter a `404 Not Found` error, ensure that the endpoint is correctly specified.
-- Make sure to upload a valid CSV file as per the format shown above.
-
-## License
-This project is licensed under the MIT License.
+## Author
+Ajay Chaudhary  
+[LinkedIn](https://www.linkedin.com/in/ajay-chaudhary-02287a2ab/)
 

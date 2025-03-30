@@ -1,0 +1,4 @@
+[2025-03-30 18:46:59,930] 26 root - INFO - Converting input data to DataFrame
+[2025-03-30 18:46:59,931] 52 root - INFO - Loading the preprocessor and model for prediction
+[2025-03-30 18:46:59,931] 34 root - ERROR - Exception occurred while loading object from Artifacts\preprocessor.pkl
+[2025-03-30 18:46:59,931] 73 root - ERROR - Error occurred during prediction

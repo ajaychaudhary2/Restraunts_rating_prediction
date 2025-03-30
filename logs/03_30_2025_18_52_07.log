@@ -1,0 +1,6 @@
+[2025-03-30 18:52:07,357] 26 root - INFO - Converting input data to DataFrame
+[2025-03-30 18:52:07,363] 52 root - INFO - Loading the preprocessor and model for prediction
+[2025-03-30 18:52:07,365] 31 root - INFO - Loaded object of type <class 'dict'> from Artifacts\preprocessor.pkl
+[2025-03-30 18:52:07,970] 31 root - INFO - Loaded object of type <class 'sklearn.ensemble._forest.RandomForestRegressor'> from Artifacts\model.pkl
+[2025-03-30 18:52:07,986] 66 root - INFO - Prediction started
+[2025-03-30 18:52:08,009] 68 root - INFO - Prediction completed
